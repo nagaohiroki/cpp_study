@@ -1,11 +1,10 @@
 #pragma once
 #include <stdint.h>
-class functest
+class Functest
 {
 public:
-	explicit functest(int32_t inInter);
-	virtual ~functest();
-	inline functest(const functest& inFunc) = delete;
+	explicit Functest(int32_t inInter);
+	virtual ~Functest();
 private:
 	int32_t inter;
 };

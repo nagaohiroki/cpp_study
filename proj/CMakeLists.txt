@@ -5,4 +5,5 @@ project(proj)
 add_executable(proj 
 	src/main.cpp
 	src/functest.cpp
+	src/argcheck.cpp
 	)
