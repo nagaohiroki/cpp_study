@@ -2,7 +2,7 @@
 #include <stdint.h>
 #include <iostream>
 #include <string>
-class argcheck
+class Argcheck
 {
 public:
 	template<class... Args>

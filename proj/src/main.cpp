@@ -10,6 +10,6 @@ int main(int argc, char *argv[])
 	c = a;
 	std::shared_ptr<Functest> b(new Functest(2));
 	std::cout << b.unique() << std::endl;
-	argcheck::Test(0.5f, 1, 2, "aa", 3, 0.5f);
+	Argcheck::Test(0.5f, 1, 2, "aa", 3, 0.5f);
 	return 0;
 }
