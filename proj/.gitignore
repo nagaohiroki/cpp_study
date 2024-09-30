@@ -7,4 +7,9 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-proj
+Debug/
+*.dir/
+x64/
+*.sln
+*.vcxproj
+*.vcxproj.filters
